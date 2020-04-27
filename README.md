@@ -1,5 +1,7 @@
 # toDoExtension
 
+-From nomad coders js challenge
+
 html css javascript만을 이용하여 todolist 확장 프로그램을 만드는 프로젝트.
 2020/04/26 프로젝트 시작 현재 시각을 표시, 레지토리에 이름,할 일 목록 저장 및 삭제
 현재 날씨와 장소 api로 호출 등을 구현할 예정
