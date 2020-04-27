@@ -10,3 +10,4 @@ html css javascript만을 이용하여 todolist 확장 프로그램을 만드는
 git push -f origin master을 이용하였더니 기존에 있던 정보는 사라지고
 새로운 레포지토리가 생성되어 저장된 듯해 보임. 현재 시각, 할 일 목록의 저장과 삭제, 이름의
 저장 구현을 하였다.
+merge의 개념을 배워 pull로 덮어 씌워 merge하는 방법으로 새로 커밋하였다.
