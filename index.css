@@ -8,16 +8,22 @@ body {
 }
 .showing {
     display: block;
+    animation: fadeIn 1s linear;
 }
 
 
 
 h1 {
     color: aliceblue;
+    font-size: 100px;
+    text-align: center;
+    animation: fadeIn 1s linear;
 }
 
 h4 {
     color: aliceblue;
+    font-size: 60px;
+    text-align: center;
 }
 
 span {
@@ -42,4 +48,52 @@ span {
     height: 100%;
     z-index: -1;
     animation : fadeIn 3s linear;
+}
+input {
+    width: 300px;
+    height: 50px;
+    opacity: 0.3;
+    font-size: 30px;
+    color: darkblue;
+    text-align: center;
+}
+
+input::placeholder {
+    color: darkslateblue;
+    width: 100%;
+    padding: 5px 5px;
+    font-size: 30px;
+}
+
+span{
+    font-size: 16px;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+}
+button {
+    background-color: white;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: crimson;
+    cursor: pointer;
+}
+
+li {
+    margin-top: 5px;
+    animation: fadeIn 1s linear;
+}
+.content {
+    text-align: center;
+}
+
+.from {
+    display: inline-block;
+}
+
+.gretting {
+    display: inline-block;
 }
