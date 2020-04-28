@@ -11,13 +11,22 @@ body {
     animation: fadeIn 1s linear;
 }
 
-
+.js-clock {
+    background-color: black;
+    opacity: 0.7;
+    border-radius: 20px;
+    
+}
 
 h1 {
     color: aliceblue;
     font-size: 100px;
     text-align: center;
     animation: fadeIn 1s linear;
+    border-radius: 20px;
+    height: 150px;
+    margin-bottom: 0;
+    
 }
 
 h4 {
@@ -27,8 +36,12 @@ h4 {
 }
 
 span {
-    color: aliceblue;
-    font-size: 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    font-weight: 800;
+    color: whitesmoke;
+    font-size: 15px;
+    height: 50px;
 }
 
 @keyframes fadeIn {
@@ -51,24 +64,21 @@ span {
 }
 input {
     width: 300px;
+    opacity: 0.4;
     height: 50px;
-    opacity: 0.3;
-    font-size: 30px;
+    font-size: 25px;
     color: darkblue;
     text-align: center;
+    border-radius: 30px;
+    border: 3px solid black;
 }
 
 input::placeholder {
     color: darkslateblue;
     width: 100%;
-    padding: 5px 5px;
-    font-size: 30px;
-}
-
-span{
-    font-size: 16px;
-    margin-left: 10px;
-    font-weight: 700;
+    padding: 2px 3px;
+    font-size: 25px;
+    font-weight: 600;
 }
 
 ul {
@@ -83,11 +93,13 @@ button {
 }
 
 li {
-    margin-top: 5px;
+    margin-top: 7px;
+    margin-right: 50px;
     animation: fadeIn 1s linear;
 }
 .content {
     text-align: center;
+    margin-top: 50px;
 }
 
 .from {
@@ -102,10 +114,18 @@ li {
     text-align: center;
 }
 
-li {
-    margin-right: 50px;
-}
 
 .todoform {
     animation: fadeIn 1s linear;
+}
+
+.js-day {
+    font-weight: 700;
+    text-align: center;
+    color: rgb(34, 78, 201);
+    font-size: 30px;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    border-radius: 30px;
+    padding: 8px;
 }

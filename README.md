@@ -1,6 +1,6 @@
 # toDoExtension
 
--From nomad coders js challenge
+-From nomad coders js challenge + sangjun custom
 
 html css javascript만을 이용하여 todolist 확장 프로그램을 만드는 프로젝트.
 2020/04/26 프로젝트 시작 현재 시각을 표시, 레지토리에 이름,할 일 목록 저장 및 삭제
@@ -23,3 +23,10 @@ delete button으로 삭제기능 구현.
 # 2020/04/28
 
 오후 3:22 css 수정
+
+# 2020/04/09
+
+오전 12시 06분 css 전반 수정 및 clock.js 요일 추가
+array를 이용하여 정수형으로 주어지는 요일 데이터를
+텍스트로 바꿨다. 이 방법은 쓸 일이 많을 것 같음.
+
