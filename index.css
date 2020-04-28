@@ -97,3 +97,15 @@ li {
 .gretting {
     display: inline-block;
 }
+
+.todolist {
+    text-align: center;
+}
+
+li {
+    margin-right: 50px;
+}
+
+.todoform {
+    animation: fadeIn 1s linear;
+}
